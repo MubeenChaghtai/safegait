@@ -1,0 +1,10 @@
+safegait_node:
+  ros__parameters:
+    policy: planned
+    use_validator: true
+    model_path: ""
+    frame_id: odom
+    initial_command: ""
+    object_names: ["red_cube", "blue_cube", "green_box"]
+    object_xy: [2.6, -0.8, 2.2, 1.4, 1.6, 0.2]
+    obstacle_xyr: [1.1, -0.1, 0.30, 1.0, -1.3, 0.30, 2.6, 0.9, 0.40]

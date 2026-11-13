@@ -1,9 +1,6 @@
 # safegait
 
-A small study of **safe whole-body control for a mobile manipulator**: a policy proposes
-*chunks* of commands, and a validator predicts their effect and only lets the safe part
-through to the robot. The robot comes in two kinds: the original **wheeled** base, and a **walking** base
-modelled as a linear inverted pendulum with footstep planning (section "Walking").
+A small study of **safe whole-body control for a mobile manipulator**: a policy proposes *chunks* of commands, and a validator predicts their effect and only lets the safe part through to the robot. The robot comes in two kinds: the original **wheeled** base, and a **walking** base modelled as a linear inverted pendulum with footstep planning (section "Walking").
 
 ![demo](docs/demo.png)
 
@@ -406,5 +403,6 @@ The idea of checking a learned policy's action chunks before execution is inspir
 package in [Grove-G1](https://github.com/Adyansh04/grove-g1) (BSD-3-Clause), and the
 language-to-task-to-chunk-policy structure by [humanoid_vla](https://github.com/ozkanceylan/humanoid_vla)
 (MIT). No code from either repository is used; this project was written independently. See `ACKNOWLEDGEMENTS.md`.
-#   s a f e g a i t  
+#   s a f e g a i t 
+ 
  
