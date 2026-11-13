@@ -406,5 +406,3 @@ The idea of checking a learned policy's action chunks before execution is inspir
 package in [Grove-G1](https://github.com/Adyansh04/grove-g1) (BSD-3-Clause), and the
 language-to-task-to-chunk-policy structure by [humanoid_vla](https://github.com/ozkanceylan/humanoid_vla)
 (MIT). No code from either repository is used; this project was written independently. See `ACKNOWLEDGEMENTS.md`.
-#   s a f e g a i t  
- 
